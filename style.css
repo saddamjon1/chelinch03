@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Foldit:wght@100;400;800&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #140625;
+}
+
+.container {
+  margin-top: 200px;
+  max-width: 485px;
+  height: 250px;
+  display: flex;
+  background-color: #2f074b;
+}
+.container .words {
+  max-width: 290px;
+  padding: 30px 50px 30px 30px;
+  border-radius: 10px 0 0 10px;
+  height: 200px;
+}
+.container .words h1 {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 135.3%;
+}
+.container .words h1 span {
+  color: #5e0992;
+}
+.container .words p {
+  margin-top: 15px;
+  font-weight: 500;
+  letter-spacing: 100%;
+  font-size: 8px;
+  color: rgb(179, 171, 171);
+}
+.container .words .salom {
+  display: flex;
+  gap: 15px;
+}
+.container .words .salom p {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 10px;
+  color: rgb(179, 171, 171);
+}
+.container .words .salom p b {
+  font-size: 14px;
+  color: #fff;
+}
+
+.image {
+  max-width: 250px;
+}
+.image img {
+  border-radius: 0 5px 5px 0;
+  width: 250px;
+  height: 250px;
+}
+
+@media (max-width: 390px) {
+  body {
+    margin: 10px;
+  }
+  .container {
+    max-width: 360px;
+    height: 900px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container .words {
+    max-width: 360px;
+    padding: 30px 20px;
+  }
+  .container .words h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 130%;
+  }
+  .container .words P {
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+  }
+  .container .words .salom {
+    display: block;
+    text-align: center;
+  }
+  .container .words .salom p {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  .container .words .salom p b {
+    font-size: 24px;
+  }
+  .container .image {
+    max-width: 360px;
+  }
+  .container .image img {
+    width: 360px;
+  }
+}/*# sourceMappingURL=style.css.map */
